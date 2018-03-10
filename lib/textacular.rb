@@ -12,7 +12,7 @@ module Textacular
     'english'
   end
 
-  def search(query = "", exclusive = true)
+  def textacular_search(query = "", exclusive = true)
     basic_search(query, exclusive)
   end
 
